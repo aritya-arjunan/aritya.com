@@ -1,0 +1,27 @@
+./index.html:      <a href="https://github.com/ecell/spatiocyte" target="_blank">
+./index.html:          <a class="btn" href="https://github.com/ecell/spatiocyte/blob/master/examples/ode-snrp-particle/ode-snrp-particle.py" target="_blank">
+./index.html:          <a class="btn" href="https://github.com/ecell/spatiocyte" target="_blank">
+./index.html:          <a class="btn" href="http://groups.google.com/d/forum/spatiocyte-users?hl=en" target="_blank">
+./index.html:              <a href="https://github.com/ecell/spatiocyte" target="_blank">
+./index.html:              <a href="https://github.com/satya-arjunan/pspatiocyte" target="_blank">
+./index.html:$ wget https://raw.githubusercontent.com/ecell/spatiocyte/master/install-spatiocyte-ubuntu.sh
+./index.html:$ sh -x install-spatiocyte-ubuntu.sh 
+./index.html:$ curl -O https://raw.githubusercontent.com/ecell/spatiocyte/master/install-spatiocyte-mac.sh
+./index.html:$ sh -x install-spatiocyte-mac.sh 
+./index.html:            <a href="https://groups.google.com/forum/?hl=en#!forum/spatiocyte-users" target="_blank">
+./index.html:            <li>Search <b>Spatiocyte</b> and create container for <b>ecell/spatiocyte</b>.
+./index.html:            <img src="img/kitematic1.png" alt="ecell/spatiocyte">
+./index.html:            <a href="https://groups.google.com/forum/?hl=en#!forum/spatiocyte-users" target="_blank">
+./index.html:              <a href="https://github.com/ecell/spatiocyte/tree/master/examples/1D" target="_blank">
+./index.html:$ cd $HOME/wrk/spatiocyte/examples/1D
+./index.html:$ spatiocyte
+./index.html:            <a href="https://github.com/ecell/spatiocyte/tree/master/examples" target="_blank">
+./index.html:              <a href="https://groups.google.com/forum/?hl=en#!forum/spatiocyte-users" target="_blank">
+./index.html:              <a href="http://spatiocyte.readthedocs.org/en/latest/intro.html" target="_blank">
+./index.html:            <a href="http://spatiocyte.readthedocs.org/en/latest/modules.html#length-x-y-z" target="_blank">
+./index.html:$ spatiocyte
+./index.html:            <a href="http://spatiocyte.readthedocs.org/en/latest/modules.html#spatiocytevisualizer" target="_blank">
+./index.html:          <a href="http://spatiocyte.readthedocs.org/en/latest/intro.html" target="_blank">
+./index.html:            http://spatiocyte.readthedocs.org/en/latest/intro.html
+./README.md:This is the source for spatiocyte.org
+grep: input file ‘./tmp.txt’ is also the output
