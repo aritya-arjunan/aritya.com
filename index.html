@@ -190,6 +190,81 @@
             </h3>
           </div>
         </li>
+
     </div>
+
+    <script src="script/jquery-latest.min.js">
+    </script>
+    <script src="script/jquery.event.move.js">
+    </script>
+    <script src="script/jquery.event.swipe.js">
+    </script>
+    <script src="script/unslider.js">
+    </script>
+    <script src="script/magnific.js">
+    </script>
+    <script>
+      $('.banner').unslider({
+        fluid: true,
+        keys: true,
+        dots: true,
+        speed: 300
+      }
+                           );
+      
+      //  Find any element starting with a # in the URL
+      //  And listen to any click events it fires
+      $('a[href^="#"]').click(function() {
+        //  Find the target element
+        var target = $($(this).attr('href'));
+        
+        //  And get its position
+        var pos = target.offset();
+        // fallback to scrolling to top || {left: 0, top: 0};
+        
+        //  jQuery will return false if there's no element
+        //  and your code will throw errors if it tries to do .offset().left;
+        if(pos) {
+          //  Scroll the page
+          $('html, body').animate({
+            scrollTop: pos.top,
+            scrollLeft: pos.left
+          }, 1000);
+        }
+        
+        //  Don't let them visit the url, we'll scroll you there
+        return false;
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+          disableOn: 700,
+          type: 'iframe',
+          mainClass: 'mfp-fade',
+          removalDelay: 160,
+          preloader: false,
+          fixedContentPos: false
+        }
+                                                                     );
+      }
+                       );
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){
+        i['GoogleAnalyticsObject']=r;
+        i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)}
+          ,i[r].l=1*new Date();
+        a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];
+        a.async=1;
+        a.src=g;
+        m.parentNode.insertBefore(a,m)
+      }
+      )(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-56513360-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>
